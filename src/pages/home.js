@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Home = () => {
 
   const style = {
@@ -7,12 +8,12 @@ const Home = () => {
     justifyContent: "space-around",
     alignItems: "center",
     color: "white",
-    height: "calc(100vh - 56px)",
+    height: "calc(100vh - 112px)",
   };
 
 
   return (
-    <div style={style}>
+    <div id="home" style={style}>
       <div>
         <h1>Albert Felix</h1>
         <p>I am a Web Developer !</p>
