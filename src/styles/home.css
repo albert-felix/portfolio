@@ -1,0 +1,14 @@
+.home {
+  animation: transition 1s linear 0s 1;
+}
+
+@keyframes transition {
+  from {
+    width:0%;
+    opacity: 0;
+  }
+  to {
+    width:100%;
+    opacity: 1;
+  }
+}

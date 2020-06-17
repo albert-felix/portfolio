@@ -16,7 +16,7 @@ const Profile = () => {
     display: "flex",
     justifyContent: "space-around",
     alignItems: "center",
-    height: "calc(100vh - 112px)",
+    height: "calc(100vh - 56px)",
     flexFlow: "wrap",
     right:'0',
     left:"0",
@@ -78,6 +78,7 @@ const Profile = () => {
 </Card>
 <Jumbotron>
 <Media >
+<a href="https://albert-felix-react-library-app.netlify.app/home" target="_blank" rel="noreferrer noopener">
   <img
     width={170}
     height={100}
@@ -85,6 +86,7 @@ const Profile = () => {
     src={Library}
     alt="Generic placeholder"
   />
+  </a>
   <Media.Body>
     <h5>Media Heading</h5>
     <p>

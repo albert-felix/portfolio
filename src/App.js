@@ -11,7 +11,6 @@ export default function App() {
       <Header />
       <Home />
       <Profile />
-      <Footer />
     </div>
   );
 }
