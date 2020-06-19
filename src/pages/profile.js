@@ -1,108 +1,66 @@
 import React from "react";
-import { Figure, Jumbotron, Card, Button, Media } from "react-bootstrap";
+import "../styles/profile.css";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import Library from "../images/library.png";
 import Blog from "../images/blog.png";
 import Todo from "../images/todo.png";
+import Html from "../images/skills/html.png";
+import Css from "../images/skills/css.png";
+import Js from "../images/skills/js.png";
+import Mongodb from "../images/skills/mongodb.png";
+import Node from "../images/skills/node.png";
+import Python from "../images/skills/python.png";
+import ReactImg from "../images/skills/react.png";
+
 
 const Profile = () => {
-  const style = {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    width:"80%"
-  };
-
-  const verticalAlign = {
-    display: "flex",
-    justifyContent: "space-around",
-    alignItems: "center",
-    height: "calc(100vh - 56px)",
-    flexFlow: "wrap",
-    right:'0',
-    left:"0",
-    marginLeft:"auto",
-    marginRight:"auto",
-    width: "80%",
-    // backgroundColor: "green"
-  };
+  // const verticalAlign = {
+  //   display: "flex",
+  //   justifyContent: "space-around",
+  //   alignItems: "center",
+  //   height: "calc(100vh - 36px)",
+  //   flexFlow: "wrap",
+  //   right:'0',
+  //   left:"0",
+  //   marginLeft:"auto",
+  //   marginRight:"auto",
+  //   width: "80%",
+  // };
 
   return (
-    <section  id="profile" style={verticalAlign} >
-      {/* <div style={style}> */}
-      <Card style={{ width: '18rem', marginBottom:"1rem" }} bg="dark" text="light">
-  <Card.Img variant="top" src={Library} />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-
-<Card style={{ width: '18rem', marginBottom:"1rem" }} bg="dark" text="light">
-  <Card.Img variant="top" src={Blog} />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-
-<Card style={{ width: '18rem', marginBottom:"1rem" }} bg="dark" text="light">
-  <Card.Img variant="top" src={Todo} />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-
-<Card style={{ width: '18rem', marginBottom:"1rem" }} bg="dark" text="light">
-  <Card.Img variant="top" src={Todo} />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-<Jumbotron>
-<Media >
-<a href="https://albert-felix-react-library-app.netlify.app/home" target="_blank" rel="noreferrer noopener">
-  <img
-    width={170}
-    height={100}
-    className="mr-3"
-    src={Library}
-    alt="Generic placeholder"
-  />
-  </a>
-  <Media.Body>
-    <h5>Media Heading</h5>
-    <p>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-      ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-      tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
-      Donec lacinia congue felis in faucibus.
-    </p>
-  </Media.Body>
-</Media>
-</Jumbotron>
-
-
-
- {/* </div> */}
-    </section>
+    <div className="profile" id="profile">
+      <div className="skill-title">
+        <h1>Skills</h1>
+        <hr />
+      </div>
+      <div className="skills" >
+        <Container>
+          <Row>
+            <Col xs={6} md={3}>
+              <Image src={Html} rounded />
+            </Col>
+            <Col xs={6} md={3}>
+              <Image src={Css} rounded />
+            </Col>
+            <Col xs={6} md={3}>
+              <Image src={Js} rounded />
+            </Col>
+            <Col xs={6} md={3}>
+              <Image src={Mongodb} rounded />
+            </Col>
+            <Col xs={6} md={3}>
+              <Image src={Node} rounded />
+            </Col>
+            <Col xs={6} md={3}>
+              <Image src={Python} rounded />
+            </Col>
+            <Col xs={6} md={3}>
+              <Image src={ReactImg} rounded />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </div>
   );
 };
 

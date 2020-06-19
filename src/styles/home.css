@@ -1,14 +1,39 @@
 .home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+/* Title animation  */
+
+.name {
+  font-size: 4em;
   animation: transition 1s linear 0s 1;
 }
 
 @keyframes transition {
   from {
-    width:0%;
     opacity: 0;
   }
   to {
-    width:100%;
+    opacity: 1;
+  }
+}
+
+/* Sub title animation  */
+
+.sub-title {
+  font-size: 1.5em;
+  animation: transition 2s linear 0s 1;
+}
+
+@keyframes transition {
+  from {
+    opacity: 0;
+  }
+  to {
     opacity: 1;
   }
 }

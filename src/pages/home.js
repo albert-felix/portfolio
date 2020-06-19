@@ -1,22 +1,12 @@
 import React from "react";
-import "../styles/home.css"
+import "../styles/home.css";
 
 const Home = () => {
-
-  const style = {
-    display:"flex",
-    justifyContent: "space-around",
-    alignItems: "center",
-    color: "white",
-    height: "calc(100vh)",
-  };
-
-
   return (
-    <div className="home" id="home" style={style}>
+    <div className="home" id="home">
       <div>
-        <h1>Albert Felix</h1>
-        <p>I am a Web Developer !</p>
+        <h1 className="name">Albert Felix</h1>
+        <p className="sub-title">I am a Web Developer !</p>
       </div>
     </div>
   );
