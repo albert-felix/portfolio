@@ -2,15 +2,17 @@ import React from "react";
 import Header from "./components/header";
 import "./styles.css";
 import Home from "./pages/home";
-import Profile from "./pages/profile";
+import Skills from "./pages/skills";
 import Footer from "./components/footer";
+import About from "./pages/about";
 
 export default function App() {
   return (
     <div className="App">
       <Header />
       <Home />
-      <Profile />
+      <Skills />
+      {/* <About /> */}
     </div>
   );
 }
