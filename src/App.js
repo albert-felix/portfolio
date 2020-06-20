@@ -4,7 +4,7 @@ import "./styles.css";
 import Home from "./pages/home";
 import Skills from "./pages/skills";
 import Footer from "./components/footer";
-import About from "./pages/about";
+// import About from "./pages/about";
 
 export default function App() {
   return (
