@@ -1,12 +1,13 @@
 import React from "react";
+import "../styles/header.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-scroll";
 
 const Header = () => {
   return (
     <div>
-      <Navbar bg="light" variant="light" expand="lg" fixed="top">
-        <Navbar.Brand>Portfolio</Navbar.Brand>
+      <Navbar bg="black" variant="dark" expand="lg" fixed="top">
+        <Navbar.Brand className="title">Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

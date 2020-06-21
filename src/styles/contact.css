@@ -1,0 +1,13 @@
+.contact {
+  text-align: left;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.contact-title {
+  color: white;
+  text-align: center;
+}

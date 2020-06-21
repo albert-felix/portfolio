@@ -1,6 +1,10 @@
 .profile {
   color: white;
-  height: calc(100vh - 80px);
+  /* height: calc(100vh - 80px); */
+}
+
+.skill-title {
+  padding-top: 50px;
 }
 
 hr {
@@ -25,7 +29,7 @@ img {
 }
 
 .project-title {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .project {

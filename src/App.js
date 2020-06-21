@@ -3,8 +3,7 @@ import Header from "./components/header";
 import "./styles.css";
 import Home from "./pages/home";
 import Skills from "./pages/skills";
-import Footer from "./components/footer";
-// import About from "./pages/about";
+import Contact from "./pages/contact";
 
 export default function App() {
   return (
@@ -12,7 +11,7 @@ export default function App() {
       <Header />
       <Home />
       <Skills />
-      {/* <About /> */}
+      <Contact />
     </div>
   );
 }

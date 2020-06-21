@@ -4,5 +4,10 @@
 }
 
 body {
+  position: relative;
   background-color: black;
+  /* background-image: url("https://torange.biz/photo/37/HD/hearts-heart-backgrounds-dark-background-big-37850.jpg"); */
+  background-size: cover;
+  background-attachment: fixed;
 }
+
