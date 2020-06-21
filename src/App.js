@@ -4,6 +4,7 @@ import "./styles.css";
 import Home from "./pages/home";
 import Skills from "./pages/skills";
 import Contact from "./pages/contact";
+import About from "./pages/about";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Header />
       <Home />
       <Skills />
+      <About />
       <Contact />
     </div>
   );

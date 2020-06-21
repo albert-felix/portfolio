@@ -11,18 +11,21 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link>
-              <Link to="home" smooth={true} duration={500}>
-                Home
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to="profile" smooth={true} duration={500}>
-                Profile
-              </Link>
-            </Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Link to="home" smooth={true} duration={500}>
+              <Nav.Link> Home </Nav.Link>
+            </Link>
+
+            <Link to="profile" smooth={true} duration={500}>
+              <Nav.Link>Profile</Nav.Link>
+            </Link>
+
+            <Link to="about" smooth={true} duration={500}>
+              <Nav.Link> About</Nav.Link>
+            </Link>
+
+            <Link to="contact" smooth={true} duration={500}>
+              <Nav.Link>Contact</Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

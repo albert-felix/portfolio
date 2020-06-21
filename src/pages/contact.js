@@ -20,7 +20,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="contact-title">
         <h2>Contact</h2>
         <hr />
@@ -55,6 +55,15 @@ const Contact = () => {
           Submit
         </Button>
       </Jumbotron>
+      <div className="reference">
+        <p>phone: +91 9788061021</p>
+        <p>email: albertfelixleo@gmail.com</p>
+      </div>
+      <div className="social-accounts">
+        <div className="account"></div>
+        <div className="account"></div>
+        <div className="account"></div>
+      </div>
     </div>
   );
 };
