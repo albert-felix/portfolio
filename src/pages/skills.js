@@ -38,35 +38,35 @@ const Skills = () => {
         <Container>
           <Row>
             <Col xs={6} md={3}>
-              <Image src={Html} rounded />
+              <Image className = "skill-image" src={Html} rounded />
               <div>HTML 5</div>
             </Col>
             <Col xs={6} md={3}>
-              <Image src={Css} rounded />
+              <Image className = "skill-image" src={Css} rounded />
               <div>CSS 3</div>
             </Col>
             <Col xs={6} md={3}>
-              <Image src={Js} rounded />
+              <Image className = "skill-image" src={Js} rounded />
               <div>Javascript</div>
             </Col>
             <Col xs={6} md={3}>
-              <Image src={Mongodb} rounded />
+              <Image className = "skill-image" src={Mongodb} rounded />
               <div>MongoDB</div>
             </Col>
             <Col xs={6} md={3}>
-              <Image src={Node} rounded />
+              <Image className = "skill-image" src={Node} rounded />
               <div>NodeJs</div>
             </Col>
             <Col xs={6} md={3}>
-              <Image src={Python} rounded />
+              <Image className = "skill-image" src={Python} rounded />
               <div>Python</div>
             </Col>
             <Col xs={6} md={3}>
-              <Image src={ReactImg} rounded />
+              <Image className = "skill-image" src={ReactImg} rounded />
               <div>ReactJs</div>
             </Col>
             <Col xs={6} md={3}>
-              <Image src={Postgres} rounded />
+              <Image className = "skill-image" src={Postgres} rounded />
               <div>Postgres</div>
             </Col>
           </Row>

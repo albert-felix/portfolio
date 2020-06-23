@@ -1,6 +1,10 @@
 import React, { useState } from "react";
-import { Form, Jumbotron, Button } from "react-bootstrap";
+import { Form, Jumbotron, Button, Image } from "react-bootstrap";
 import "../styles/contact.css";
+import Github from "../images/contact/github.png";
+import Instagram from "../images/contact/instagram.png";
+import Linkedin from "../images/contact/linkedin.png";
+import Twitter from "../images/contact/twitter.png";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -35,9 +39,9 @@ const Contact = () => {
         .then(response => {
           if (response.status === "success") {
             alert("Message sent");
-            setName("")
-            setEmail("")
-            setMessage("")
+            setName("");
+            setEmail("");
+            setMessage("");
           } else {
             alert("Message sending failed");
           }
@@ -93,9 +97,19 @@ const Contact = () => {
         <p>email: albertfelixleo@gmail.com</p>
       </div>
       <div className="social-accounts">
-        <div className="account" />
-        <div className="account" />
-        <div className="account" />
+        <div className="account">
+          <Image className="contact-image" src={Github} />
+          {/* <img src={Github} alt="github" width="30%" height="auto"/> */}
+        </div>
+        <div className="account">
+          <Image className="contact-image" src={Linkedin} />
+        </div>
+        <div className="account">
+          <Image className="contact-image" src={Instagram} />
+        </div>
+        <div className="account">
+          <Image className="contact-image" src={Twitter} />
+        </div>
       </div>
     </div>
   );
