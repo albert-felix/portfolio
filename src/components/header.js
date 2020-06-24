@@ -6,25 +6,33 @@ import { Link } from "react-scroll";
 const Header = () => {
   return (
     <div>
-      <Navbar bg="black" variant="dark" expand="lg" fixed="top">
+      <Navbar
+        collapseOnSelect
+        bg="black"
+        variant="dark"
+        expand="lg"
+        fixed="top"
+      >
         <Navbar.Brand className="title">Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Link to="home" smooth={true} duration={500}>
-              <Nav.Link> Home </Nav.Link>
+            
+            
+              <Link to="home" smooth={true} duration={500}>
+              <Nav.Link eventKey="1">Home</Nav.Link>
             </Link>
 
             <Link to="profile" smooth={true} duration={500}>
-              <Nav.Link>Profile</Nav.Link>
+              <Nav.Link eventKey="2">Profile</Nav.Link>
             </Link>
 
             <Link to="about" smooth={true} duration={500}>
-              <Nav.Link> About</Nav.Link>
+              <Nav.Link eventKey="3"> About</Nav.Link>
             </Link>
 
             <Link to="contact" smooth={true} duration={500}>
-              <Nav.Link>Contact</Nav.Link>
+              <Nav.Link eventKey="4">Contact</Nav.Link>
             </Link>
           </Nav>
         </Navbar.Collapse>

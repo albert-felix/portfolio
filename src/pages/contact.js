@@ -55,11 +55,12 @@ const Contact = () => {
         <h2>Contact</h2>
         <hr />
       </div>
-      <Jumbotron>
+      <Jumbotron className="jumbotron">
         <Form>
           <Form.Group controlId="name">
             <Form.Label>*Name</Form.Label>
             <Form.Control
+              className="input"
               onChange={onNameChange}
               type="text"
               placeholder="Full Name"
@@ -70,6 +71,7 @@ const Contact = () => {
           <Form.Group controlId="email">
             <Form.Label>*Email address</Form.Label>
             <Form.Control
+              className="input"
               onChange={onEmailChange}
               type="email"
               placeholder="Email"
@@ -80,6 +82,7 @@ const Contact = () => {
           <Form.Group controlId="message">
             <Form.Label>*Message</Form.Label>
             <Form.Control
+              className="input"
               onChange={onMessageChange}
               as="textarea"
               rows="3"
@@ -99,7 +102,6 @@ const Contact = () => {
       <div className="social-accounts">
         <div className="account">
           <Image className="contact-image" src={Github} />
-          {/* <img src={Github} alt="github" width="30%" height="auto"/> */}
         </div>
         <div className="account">
           <Image className="contact-image" src={Linkedin} />
@@ -110,6 +112,10 @@ const Contact = () => {
         <div className="account">
           <Image className="contact-image" src={Twitter} />
         </div>
+      </div>
+      <div className="footer">
+        <hr />
+        Developed by Albert Felix
       </div>
     </div>
   );

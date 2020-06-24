@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
 
-      <Navbar bg="light" variant="light" expand="lg" fixed="bottom" style={{alignItems:"center"}}>
+      <Navbar bg="dark" variant="dark" expand="lg" fixed="bottom" style={{alignItems:"center"}}>
 <p>Designed by Albert Felix</p>
       </Navbar>
 

@@ -14,6 +14,7 @@
 
 .reference {
   color: white;
+  text-align: center;
 }
 
 .social-accounts {
@@ -41,4 +42,22 @@
   margin-left: auto;
   margin-right: auto;
   width: 35px;
+}
+
+.footer {
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+  color: gray;
+  text-align: center;
+}
+
+.jumbotron {
+  margin-top: 30px;
+  padding: 30px;
+  background-color: gray;
+}
+
+.input {
+  background-color: rgb(221, 216, 216);
 }
