@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "../styles/skills.css";
+import "../styles/project.css";
 import Library from "../images/library.png";
 import Blog from "../images/blog.png";
 import Todo from "../images/todo.png";
