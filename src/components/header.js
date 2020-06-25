@@ -19,19 +19,19 @@ const Header = () => {
           <Nav className="mr-auto">
             
             
-              <Link to="home" smooth={true} duration={500}>
+              <Link to="home" smooth={true} duration={500} style={{backgroundColor:"black"}}>
               <Nav.Link eventKey="1">Home</Nav.Link>
             </Link>
 
-            <Link to="profile" smooth={true} duration={500}>
+            <Link to="profile" smooth={true} duration={500} style={{backgroundColor:"black"}}>
               <Nav.Link eventKey="2">Profile</Nav.Link>
             </Link>
 
-            <Link to="about" smooth={true} duration={500}>
+            <Link to="about" smooth={true} duration={500} style={{backgroundColor:"black"}}>
               <Nav.Link eventKey="3"> About</Nav.Link>
             </Link>
 
-            <Link to="contact" smooth={true} duration={500}>
+            <Link to="contact" smooth={true} duration={500} style={{backgroundColor:"black"}}>
               <Nav.Link eventKey="4">Contact</Nav.Link>
             </Link>
           </Nav>
