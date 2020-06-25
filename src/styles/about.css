@@ -1,4 +1,45 @@
 .about-title {
   color: white;
   text-align: center;
+  padding-top: 50px;
+}
+
+.about-details {
+  text-align: left;
+  margin: 25px;
+}
+
+.interests {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.me {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.me p,
+q {
+  margin-top: 15px;
+  color: rgb(170, 165, 165);
+}
+
+.interests p {
+  margin-top: 15px;
+  color: rgb(170, 165, 165);
+}
+
+.certifications {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.certifications p {
+  margin-top: 15px;
+  color: rgb(170, 165, 165);
+}
+
+.certifications a {
+  color: rgb(196, 141, 41);
 }
