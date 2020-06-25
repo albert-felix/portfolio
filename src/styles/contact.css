@@ -61,3 +61,15 @@
 .input {
   background-color: rgb(221, 216, 216);
 }
+
+.reference-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reference-image {
+  width: 20px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
