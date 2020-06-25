@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import "../styles/skills.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import "../styles/skills.css";
 import Library from "../images/library.png";
 import Blog from "../images/blog.png";
 import Todo from "../images/todo.png";
-import Meeting from "../images/meeting.PNG";
+import MeetingRoom from "../images/meeting.PNG";
 import Html from "../images/skills/html.png";
 import Css from "../images/skills/css.png";
 import Js from "../images/skills/js.png";
@@ -15,10 +15,10 @@ import Node from "../images/skills/node.png";
 import Python from "../images/skills/python.png";
 import ReactImg from "../images/skills/react.png";
 import Postgres from "../images/skills/postgres.png";
-import Bootstrap from "../images/skills/bootstrap.png";
-import Git from "../images/skills/git.png";
-import Angular from "../images/skills/angular.png";
-import Express from "../images/skills/express.png";
+import BootstrapImg from "../images/skills/bootstrap.png";
+import GitImg from "../images/skills/git.png";
+import AngularImg from "../images/skills/angular.png";
+import ExpressImg from "../images/skills/express.png";
 
 const Skills = () => {
   useEffect(() => {
@@ -68,19 +68,19 @@ const Skills = () => {
               <div>Postgres</div>
             </Col>
             <Col xs={6} md={3} data-aos="fade-up">
-              <Image className="skill-image" src={Bootstrap} rounded />
+              <Image className="skill-image" src={BootstrapImg} rounded />
               <div>Bootstrap</div>
             </Col>
             <Col xs={6} md={3} data-aos="fade-up">
-              <Image className="skill-image" src={Express} rounded />
+              <Image className="skill-image" src={ExpressImg} rounded />
               <div>Express</div>
             </Col>
             <Col xs={6} md={3} data-aos="fade-up">
-              <Image className="skill-image" src={Angular} rounded />
+              <Image className="skill-image" src={AngularImg} rounded />
               <div>Angular</div>
             </Col>
             <Col xs={6} md={3} data-aos="fade-up">
-              <Image className="skill-image" src={Git} rounded />
+              <Image className="skill-image" src={GitImg} rounded />
               <div>Git</div>
             </Col>
           </Row>
@@ -100,7 +100,7 @@ const Skills = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <Image className="project-image" src={Meeting} rounded />
+            <Image className="project-image" src={MeetingRoom} rounded />
           </a>
           <div className="project-details">
             <div>
