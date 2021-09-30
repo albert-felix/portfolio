@@ -42,7 +42,7 @@ const Contact = () => {
         }
       };
 
-      fetch("https://jdhj3.sse.codesandbox.io/send", config)
+      fetch("https://albertfelix-portfolio-backend.herokuapp.com/send", config)
         .then(data => data.json())
         .then(response => {
           if (response.status === "success") {
